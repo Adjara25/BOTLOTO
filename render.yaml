@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: telegram-loto-bot
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    repo: https://github.com/Adjarie25/BOTLOTO
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: TOKEN
+        value: 7349577271:AAEPXNPjaNeopIGefTQ9_yJfeoYkspMHg8k
